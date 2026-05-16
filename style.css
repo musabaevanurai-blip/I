@@ -1,0 +1,29 @@
+body{
+    background-color: rebeccapurple;
+}
+
+h1{
+    color: white;
+}
+h1:hover{
+    text-shadow: 0px 0px 20px white;
+}
+
+p{
+    color: aqua;
+    transition: 0.3s;
+}
+p:hover{
+    font-size: 40px;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+    transition: 0.2s;
+}
+img:hover{
+    border-radius: 45%;
+    border: 6px solid white;
+    box-shadow: 0px 0px 20px 5px rgb(255, 255, 255, 0.6);
+}
